@@ -10,6 +10,18 @@ header {
     color: #ecf0f1;
 }
 
+#capa {
+    background-color: #c2c2dc;
+}
+
+#about {
+    background-color: #baa4b3;
+}
+
+#scenes {
+    background-color: #c3dfdb;
+}
+
 .titulo {
     font-size: 30px;
     margin-left: 215px;
@@ -56,7 +68,6 @@ section .container {
 #about h2,
 #scenes h2 {
     margin-top: 50px;
-    margin-bottom: 10px;
 }
 
 #about p,
@@ -85,7 +96,6 @@ footer {
     background-color: #182c61;
     color: #ecf0f1;
     padding: 16px 0;
-    margin-top: 50px;
 }
 
 #by {
