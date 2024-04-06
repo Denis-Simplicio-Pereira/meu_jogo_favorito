@@ -51,6 +51,7 @@ header nav li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bolder;
+    margin-bottom: 15px;
 }
 
 header nav li a:hover {
