@@ -76,6 +76,7 @@ section .container {
 #about h2,
 #scenes h2 {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #about p,
