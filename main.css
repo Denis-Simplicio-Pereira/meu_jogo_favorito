@@ -22,13 +22,6 @@ header {
     background-color: #c3dfdb;
 }
 
-.titulo {
-    font-size: 30px;
-    margin-left: 215px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
 .store-front img {
     height: 24px;
 }
@@ -62,10 +55,16 @@ header nav li a:hover {
     justify-content: space-between;
 }
 
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
 .video1,
 .video2 {
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 header .container,
@@ -76,17 +75,12 @@ section .container {
 
 #about h2,
 #scenes h2 {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 #about p,
 #scenes p {
     font-size: 20px;
-}
-
-#scenes p {
-    display:block;
-    margin-top: 20px;
 }
 
 footer {
