@@ -5,9 +5,9 @@
 }
 
 .container,
+.store-front,
 .video1,
 .video2,
-.store-front,
 .titulo,
 #about h2,
 #scenes h2 {
@@ -25,6 +25,10 @@ header {
     color: #ecf0f1;
 }
 
+.container img {
+    margin-bottom: 10px;
+}
+
 #capa {
     background-color: #c2c2dc;
 }
@@ -36,11 +40,6 @@ header {
 #scenes {
     background-color: #c3dfdb;
 }
-
-.store-front img {
-    height: 24px;
-}
-
 
 header nav li {
     display: inline;
