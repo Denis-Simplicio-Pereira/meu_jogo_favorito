@@ -51,12 +51,21 @@ header nav li a:hover {
     
 }
 
-
-.container {
-    max-width: 900px;
+.container,
+.video1,
+.video2,
+.store-front,
+.titulo {
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
+}
+
+.video1,
+.video2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 header .container,
@@ -67,29 +76,17 @@ section .container {
 
 #about h2,
 #scenes h2 {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #about p,
 #scenes p {
-    font-size: 18px;
-}
-
-.video1,
-.video2 {
-    width: 800px;
-    margin-left: 220px;
-
+    font-size: 20px;
 }
 
 #scenes p {
     display:block;
     margin-top: 20px;
-}
-
-#scenes p {
-    margin-left: 220px;
-    margin-bottom: 8px;
 }
 
 footer {
