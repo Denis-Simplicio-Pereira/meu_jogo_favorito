@@ -25,6 +25,10 @@ header {
     color: #ecf0f1;
 }
 
+header h1 {
+    padding: 0 7px;
+}
+
 .container img {
     margin-bottom: 10px;
 }
@@ -41,9 +45,21 @@ header {
     background-color: #c3dfdb;
 }
 
+#contact {
+    background-color: #d5b75a;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    header nav li {
+        display: inline-block;
+        margin-left: 60px;
+        padding: 2px;
+    }
 }
 
 header nav li a {
@@ -51,11 +67,10 @@ header nav li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bolder;
-    margin-bottom: 15px;
 }
 
 header nav li a:hover {
-    color: #cb9904;
+    color: #d5bf7f;
     
 }
 
@@ -78,15 +93,60 @@ section .container {
 }
 
 #about h2,
-#scenes h2 {
+#scenes h2,
+#contact h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-#about p,
+#about p {
+    padding: 0 7px;
+    font-size: 20px;
+}
+
 #scenes p {
     font-size: 20px;
-    padding: 0 7px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 0 90px;
+}
+
+@media screen and (max-width: 768px) {
+    #scenes p {
+        font-size: 20px;
+        margin: 0 auto 0 15px;
+    }
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
 }
 
 footer {
